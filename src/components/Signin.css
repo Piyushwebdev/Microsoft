@@ -1,0 +1,84 @@
+*body {
+  font-size: 16px;
+}
+.signin {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.signin_left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg);
+}
+.signin_left_box {
+  width: 40%;
+}
+.signin_left_img {
+  width: 100%;
+}
+.signin_right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.signin_right_box {
+  width: 50%;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+}
+.signin_header {
+  font-size: 2em;
+}
+.signin_password,
+.signin_username {
+  font-size: 1em;
+  color: var(--grey);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--grey);
+
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+.signin_password::after {
+  content: " *";
+  color: var(--black);
+}
+.signin_username:hover {
+  border-bottom: 1px solid var(--black);
+  color: var(--black);
+}
+.signin_password:hover {
+  border-bottom: 1px solid var(--black);
+  color: var(--black);
+}
+.signin_forget {
+  color: #1e7cd5;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.signin_button {
+  width: 50%;
+  min-width: 80px;
+  color: var(--white);
+  font-size: 1em;
+  font-weight: bold;
+  background-color: var(--bg);
+
+  border: none;
+  padding: 1em;
+  border-radius: 5%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
