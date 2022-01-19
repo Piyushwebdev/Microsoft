@@ -1,0 +1,64 @@
+.schedule {
+  padding: 40px;
+}
+.schedule_div {
+  display: flex;
+  margin-bottom: 25px;
+}
+.schedule_text {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 34px;
+  font-size: 1em;
+  font-weight: 600;
+  color: var(--light_black);
+}
+.schedule_select {
+  width: 360px;
+  height: 34px;
+  padding-left: 10px;
+  font-size: 0.875em;
+  color: var(--textgrey);
+}
+.schedule_select1 {
+  text-align: center;
+  width: 120px;
+  height: 34px;
+  font-size: 0.875em;
+  color: var(--textgrey);
+}
+.schedule_select2 {
+  width: 120px;
+  height: 34px;
+  border-right: none;
+  border-left: none;
+  text-align: center;
+  font-size: 0.875em;
+  color: var(--textgrey);
+}
+.schedule_select3 {
+  width: 120px;
+  height: 34px;
+  text-align: center;
+  font-size: 0.875em;
+  color: var(--textgrey);
+}
+
+/* DATEPICKER */
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  display: flex;
+  align-items: center;
+  width: 345px;
+  height: 30px;
+  color: var(--textgrey);
+}
+.react-datepicker-wrapper input {
+  padding-left: 10px;
+}
+/* FOOTER THIRD BUTTON */
+.footer_button3 {
+  display: block;
+}

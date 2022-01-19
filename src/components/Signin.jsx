@@ -5,7 +5,7 @@ import "./Signin.css";
 function Signin() {
   return (
     <>
-      <div className="signin">
+      {/* <div className="signin">
         <div className="signin_left">
           <div className="signin_left_box">
             <img className="signin_left_img" src="image/microsoft.svg" alt="" />
@@ -28,7 +28,7 @@ function Signin() {
             <button className="signin_button">Sign in</button>
           </div>
         </div>
-      </div>
+      </div> */}
       <Login />
     </>
   );

@@ -1,9 +1,33 @@
-*body {
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:wght@300&display=swap");
+body {
   font-size: 16px;
+  font-family: Poppins;
+  padding: 0;
+  margin: 0;
+  background-color: var(--white);
 }
 :root {
   --bg: #1c8575;
-  --black: #606060;
+  --darkbg: #156256;
+  --black: #505050;
+  --light_black: #737373;
+  --white: #ffffff;
+  --bg_white: #f2f2f2;
+  --light_white: #f8f8ff;
+  --milk: #fdfff5;
   --grey: #b8b8b8;
-  --white: #f2f2f2;
+  --dark_grey: #e6e6e6;
+  --bg_grey: #e6e6e6;
+  --textgrey: #707070;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.link:focus,
+.link:hover,
+.link:visited,
+.link:link,
+.link:active {
+  text-decoration: none;
 }

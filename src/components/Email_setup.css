@@ -1,0 +1,73 @@
+.email_setup {
+  position: relative;
+  margin-top: 5vh;
+  margin-left: 40px;
+  width: 800px;
+  height: 400px;
+  border: 1px solid var(--textgrey);
+}
+.email_setup_top {
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--textgrey);
+}
+.email_to {
+  display: flex;
+  margin-bottom: 10px;
+}
+.email_form {
+  display: flex;
+}
+.email_to_div {
+  width: 40px;
+  height: 34px;
+  cursor: pointer;
+}
+.email_to_h1 {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  height: 34px;
+}
+
+.email_to_input {
+  width: 540px;
+  height: 28px;
+}
+.email_from_input {
+  width: 620px;
+  height: 28px;
+}
+
+.email_setup_bottom {
+  padding: 25px;
+}
+.email_setup_input {
+  width: 620px;
+  height: 5vh;
+  border: none;
+  font-size: 1em;
+  color: var(--textgrey);
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+.email_setup_faketext {
+  width: 400px;
+  height: 100px;
+  word-wrap: break-word;
+}
+.email_login_link_button {
+  border: none;
+  background-color: transparent;
+  color: deepskyblue;
+  font-size: 1em;
+  z-index: 2;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  cursor: pointer;
+}

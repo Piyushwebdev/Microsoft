@@ -1,0 +1,74 @@
+.award {
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+}
+.award_right {
+  flex: 5;
+  width: 100%;
+  background-color: var(--white);
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.award_hr {
+  margin-top: 30px;
+}
+.logo_section {
+  width: 93%;
+  max-height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo_box {
+  width: 215px;
+  height: 215px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.logo_img_div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  color: var();
+  background-color: #6e6b6b;
+}
+.logo_img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  object-fit: cover;
+  z-index: 4;
+}
+.logo_icon {
+  color: var(--grey);
+  width: 48px;
+  height: 48px;
+}
+.logo_p {
+  position: absolute;
+  z-index: 2;
+  bottom: -50px;
+  font-size: 1em;
+  color: var(--textgrey);
+}
+.logo_h1 {
+  color: var(--white);
+  font-size: 1.2em;
+  font-weight: 600;
+}
